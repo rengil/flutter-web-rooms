@@ -6,10 +6,7 @@ FLUTTER=flutter/bin/flutter
 
 # Configure flutter
 FLUTTER_CHANNEL=master
-FLUTTER_VERSION=v1.17.0
-$FLUTTER channel $FLUTTER_CHANNEL
-$FLUTTER version $FLUTTER_VERSION
-$FLUTTER config --enable-web
+FLUTTER_VERSION=v2.12.3
 
 # Build flutter for web
 $FLUTTER build web
